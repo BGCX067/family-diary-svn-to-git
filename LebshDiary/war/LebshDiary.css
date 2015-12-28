@@ -1,0 +1,87 @@
+/** Add css rules here for your application. */
+.linkLabel {
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+	color: blue;
+}
+
+.selectable{
+	cursor: pointer;
+}
+.dir {
+			direction:rtl;
+		}
+
+.mainHtml{
+	background-color: orange; 
+	border: 3px solid gray; 
+	width: 100%; 
+	text-align: center; 
+	font-size:16px; 
+	font-style:bold;
+	margin: 6px;
+	}
+	
+.moviesPanel{
+	z-index:-1;
+}
+
+.nowrap{
+	white-space: nowrap;
+}
+
+
+
+.border {
+	margin: 5px;
+}
+
+.titleStyle {
+	font-size: 20px;
+	font-weight: bold;
+	color: #777777;
+}
+.bigTitleStyle {
+	font-size: 40px;
+	font-weight: bold;
+	color: red;
+}
+
+.title{
+	font-size: 40px;
+	font-weight: bold;
+	color: orange;
+	}
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
